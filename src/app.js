@@ -37,3 +37,16 @@ function someFunction([mahmut, mehmet], number) {
 }
 
 someFunction(populations);
+let student = { id: 15, firstName: "Mahmut", lastName: "Kerim" };
+
+console.log(student.firstName);
+
+student.school = "lise";
+
+console.log(student.school);
+console.log(student);
+student.sayHello = function () {
+  alert("hello" + this.firstName);
+};
+
+//student.sayHello();
